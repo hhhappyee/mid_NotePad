@@ -153,7 +153,7 @@ NoteEditor中的updateNote()方法：
 
 完成上述步骤后，我们运行这个程序，新建一条笔记，在笔记标题的下面就有时间戳显示了，同时时间的格式也是我们习惯的。
 
-![image-20241127113125826]![image-20241127113135629](https://github.com/hhhappyee/mid_NotePad/blob/master/images/01.png)
+![image-20241127113125826](https://github.com/hhhappyee/mid_NotePad/blob/master/images/01.png)
 
 修改笔记后，时间也会随之更新修改：
 
