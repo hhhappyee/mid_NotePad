@@ -153,11 +153,11 @@ NoteEditor中的updateNote()方法：
 
 完成上述步骤后，我们运行这个程序，新建一条笔记，在笔记标题的下面就有时间戳显示了，同时时间的格式也是我们习惯的。
 
-![image-20241127113125826]![image-20241127113135629](D:\Android\NotePad_new-master\images\01.png)
+![image-20241127113125826]![image-20241127113135629](https://github.com/hhhappyee/mid_NotePad/blob/master/images/01.png)
 
 修改笔记后，时间也会随之更新修改：
 
-![image-20241127113956339](D:\Android\NotePad_new-master\images\02.png)
+![image-20241127113956339](https://github.com/hhhappyee/mid_NotePad/blob/master/images/02.png)
 
 #### 2.添加笔记查询功能（根据标题或内容查询）
 
@@ -216,7 +216,7 @@ case R.id.menu_search:
 
 布局效果如下：
 
-![image-20241127223236524](D:\Android\NotePad_new-master\images\03.png)
+![image-20241127223236524](https://github.com/hhhappyee/mid_NotePad/blob/master/images/03.png)
 
 在NoteSearch.java中，我们需要取到note_search.xml中的ListView和SearchView，并且要动态地显示搜索结果，需要对SearchView文本变化设置监听，使得SearchView中的文本发生变化后，就执行一次查询；为ListView添加监听，使得查询出来的每个item被点击后，能够查看笔记的内容。NoteSearch要继承ListView外还要实现SearchView.OnQueryTextListener接口。
 
@@ -305,15 +305,15 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
 
 首先，我们可以在上面的菜单栏看到搜索查询的图标
 
-![image-20241128012341311](D:\Android\NotePad_new-master\images\04.png)
+![image-20241128012341311](https://github.com/hhhappyee/mid_NotePad/blob/master/images/04.png)
 
 查询界面如下：
 
-![image-20241128012620038](D:\Android\NotePad_new-master\images\05.png)
+![image-20241128012620038](https://github.com/hhhappyee/mid_NotePad/blob/master/images/05.png)
 
-![image-20241128012727667](D:\Android\NotePad_new-master\images\06.png)
+![image-20241128012727667](https://github.com/hhhappyee/mid_NotePad/blob/master/images/06.png)
 
-![](D:\Android\NotePad_new-master\images\07.gif)
+![](https://github.com/hhhappyee/mid_NotePad/blob/master/images/07.gif)
 
 ### 附加功能具体实现如下
 
@@ -338,9 +338,9 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
 
 设置后界面如下：
 
-![image-20241128020259621](D:\Android\NotePad_new-master\images\08.png)
+![image-20241128020259621](https://github.com/hhhappyee/mid_NotePad/blob/master/images/08.png)
 
-![image-20241128020050254](D:\Android\NotePad_new-master\images\09.png)
+![image-20241128020050254](https://github.com/hhhappyee/mid_NotePad/blob/master/images/09.png)
 
 ##### 1.2对数据库进行操作
 
@@ -517,7 +517,7 @@ color_select.xml:
 
 我们可以看到在选中笔记的时候，笔记的背景颜色会在选中的那一下改变，长按也会改变背景颜色。
 
-![](D:\Android\NotePad_new-master\images\10.gif)
+![](https://github.com/hhhappyee/mid_NotePad/blob/master/images/10.gif)
 
 #### 2.更换背景(编辑笔记时更换背景)
 
@@ -737,11 +737,11 @@ public class NoteColor extends Activity {
 
 运行应用，我们可以在编辑笔记的页面进行对背景颜色的更换，同时背景颜色也会跟随到NoteList界面。
 
-![](D:\Android\NotePad_new-master\images\11.gif)
+![](https://github.com/hhhappyee/mid_NotePad/blob/master/images/11.gif)
 
-![image-20241128045149658](D:\Android\NotePad_new-master\images\12.png)
+![image-20241128045149658](https://github.com/hhhappyee/mid_NotePad/blob/master/images/12.png)
 
-![image-20241128045213503](D:\Android\NotePad_new-master\images\13.png)
+![image-20241128045213503](https://github.com/hhhappyee/mid_NotePad/blob/master/images/13.png)
 
 #### 3.笔记排序
 
@@ -824,4 +824,4 @@ private MyCursorAdapter adapter;
 
 运行应用，笔记可以按照创建时间、修改时间、颜色进行排序
 
-![](D:\Android\NotePad_new-master\images\14.gif)
+![](https://github.com/hhhappyee/mid_NotePad/blob/master/images/14.gif)
